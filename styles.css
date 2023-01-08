@@ -40,6 +40,7 @@ header h3{
     padding: 10px;
     background-color: white;
     box-shadow: 5px 5px 5px grey;
+    margin-bottom: 15px;
 }
 .main-page {
     display: flex;
@@ -58,4 +59,44 @@ h2 {
     margin: 0;
     font-size: 21px;
     color: #747474;
+    margin-bottom: 10px;
+}
+.design-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.design-list li{
+    padding: 5px 0;
+    border-bottom: 1px dotted #747474;
+}
+.triangle {
+    border-top: 3px solid transparent;
+    border-left: 5px solid #ee7acf;
+    border-bottom: 3px solid transparent;
+    width: 0;
+    height: 0;
+    margin-right: 3px;
+}
+.design-item {
+    display: flex;
+    align-items: center;
+}
+.design-name {
+    font-size: 12px;
+    color: #ee7acf;
+    font-weight: bold;
+}
+.designer {
+    font-size: 12px;
+    color: #747474;
+}
+.designer span {
+    font-weight: bold;
+}
+.block-1 {
+    padding-left: 60px;
+    color: #888888;
+    font-weight:500;
+    font-size: 14px;
 }
